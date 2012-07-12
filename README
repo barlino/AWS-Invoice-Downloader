@@ -2,7 +2,7 @@ Install
 	yum install firefox
 	yum install xvfb
 	gem install bundler
-	bundler install
+	bundle install
 	
 First, We need a browser, in this project, I chose Firefox, you could use any you want except text mode browser such as lynx. Then, I simulated the user action in the browser via watir-webdriver. Especially, if your machince didn't have GUI window, you have to run this script in headless mode(http://en.wikipedia.org/wiki/Xvfb).
 
